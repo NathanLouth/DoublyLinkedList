@@ -28,7 +28,7 @@ void AddF(struct Node** list,int data){
     newnode->next = (*list);
     newnode->last = NULL;
     (*list)->last = newnode;
-	(*list) = newnode;   
+    (*list) = newnode;   
 };
 
 void AddE(struct Node** list,int data){
