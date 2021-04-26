@@ -46,7 +46,7 @@ void AddE(struct Node** list,int data){
 int main(){
 
     struct Node* list;
-	list = (struct Node*)malloc(sizeof(struct Node));
+    list = (struct Node*)malloc(sizeof(struct Node));
     list->data = 5;
 
     AddF(&list,4);
