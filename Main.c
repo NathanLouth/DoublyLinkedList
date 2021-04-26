@@ -17,7 +17,7 @@ void WriteL(struct Node* list) {
         printf(" %d ", list->data);
         printf(" %p ", list);
         printf(" %p ", list->next);
-		list = list->next;
+	list = list->next;
         printf("\n");
     }
 };
